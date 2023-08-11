@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/07825a9de1.js" crossorigin="anonymous"></script>
+  <title>Panda Ecommerce Website</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar mt-2 navbar-expand-lg bg-warning">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"> <img src="./panda-commerce/logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav fw-bolder">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">About US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#categories">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+  
+ <!---Products-->
+  
+  <div class = 'container mt-5'>
+      <div class = 'row'>
+        <h3 class="container text-center ">Shoes</h3>
+          <div class = 'col-md-4 col-lg-4 mt-3'>
+            <div class="card" style="width: 18rem;">
+                <img src="./panda-commerce/shoes/shoe-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">sply</h3>
+                  <h4 class="card-text">$150</h4>
+                  <a class="btn btn-success w-100">Add to Cart</a>
+                </div>
+              </div>
+          </div>
+
+          <div class = 'col-md-4 col-lg-4 mt-3'>
+            <div class="card" style="width: 18rem;">
+                <img src="./panda-commerce/shoes/shoe-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Nike</h3>
+                  <h4 class="card-text">$180</h4>
+                  <a  class="btn btn-success w-100">Add to Cart</a>
+                </div>
+              </div>
+          </div>
+
+          <div class = 'col-md-4 col-lg-4 mt-3'>
+            <div class="card" style="width: 18rem;">
+                <img src="./panda-commerce/shoes/shoe-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Adidas</h3>
+                  <h4 class="card-text">$200</h4>
+                  <a class="btn btn-success w-100">Add to Cart</a>
+                </div>
+              </div>
+          </div>
+
+          <h3 class="container text-center mt-5">Bagpack</h3>
+          <div class = 'col-md-4 col-lg-4 mt-3'>
+            <div class="card" style="width: 18rem;">
+                <img src="./panda-commerce/bags/bag-1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Gucci</h3>
+                  <h4 class="card-text">$120</h4>
+                  <a class="btn btn-success w-100">Add to Cart</a>
+                </div>
+              </div>
+          </div>
+
+          <div class = 'col-md-4 col-lg-4 mt-3'>
+            <div class="card" style="width: 18rem;">
+                <img src="./panda-commerce/bags/bag-2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Fendi</h3>
+                  <h4 class="card-text">$130</h4>
+                  <a class="btn btn-success w-100">Add to Cart</a>
+                </div>
+              </div>
+          </div>
+
+          <div class = 'col-md-4 col-lg-4 mt-3'>
+            <div class="card" style="width: 18rem;">
+                <img src="./panda-commerce/bags/bag-3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h3 class="card-title">Louis Vuiton</h3>
+                  <h4 class="card-text">$100</h4>
+                  <a class="btn btn-success w-100">Add to Cart</a>
+                </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <br>
+  <br>
+
+  <div class="uk-overflow-auto container" style = 'width: 70%'>
+    <table class="uk-table uk-table-hover uk-table-middle uk-table-divider">
+      <thead>
+        <tr>
+            <th class="uk-table-shrink"></th>
+            <th class="uk-table-small sty"><h3 class="m-3">ITEM</h3></th>
+            <th class="uk-table-small"></th>
+            <th class="uk-width-small sty"><h3 class="m-3">PRICE</h3></th>
+            <th class="uk-table-shrink uk-text-small sty"><h3 class="m-3">QUANTITY</h3></th>
+            <th class="uk-table-shrink uk-text-small sty"><h3 class="m-3">TOTAL</h3></th>
+        </tr>
+    </thead>
+    
+        <tr>
+          <td><input class="uk-checkbox" type="checkbox"></td>
+          <td><img class="uk-preserve-width uk-border-circle"  width="40" alt=""></td>
+          <td class="uk-table-link">
+              <h3 class = "item-name"><strong>Grand-Total</strong></h3>
+          </td>
+          <td class="uk-text-truncate"><h3></h3></td>
+          <td class="uk-text-truncate"><h3></h3></td>
+          <td class="uk-text-truncate grand-total"><h3><strong>$0</strong></h3></td>
+
+      </tr>
+    </table>
+</div>
+
+<!---Footer Part-->
+
+  <div class="d-flex container mt-5 orange-bg" id="contact">
+    <div class="p-2 flex-grow-1 pt-5 ps-5  left-info">
+      <h3 class="main-head">Let's Stay In Touch</h3>
+      <h6>Get updayes on sales, specials and more</h6>
+      <input id="field" type="text" class="form-control mt-3" placeholder="Enter Your Email">
+      <button type="button" class="buy-now-button  btn btn-primary mt-3">Submit</button>
+    </div>
+    <div class="p-2 pt-5 pe-5">
+      <h3 class="main-head">Get the Link</h3>
+      <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+  </div>
+
+  <footer>
+    <small> &c All Rights Reserved Sofia, Bangladesh</small>
+  </footer>
+
+
+  <script src="./bootstrap-5.2.0-beta1-dist/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
